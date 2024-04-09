@@ -1,0 +1,18 @@
+services:
+  mongo:
+    image: mongo:7.0
+    container_name: w_mongo2
+    restart: always
+    ports:
+      - 27018:27017
+    volumes:
+      - ./data/mongo:/data/db
+
+  redis:
+    image: redis:7.2
+    container_name: w_redis2
+    restart: always
+    ports:
+      - 6378:6379
+    volumes:
+      - ./data/redis:/data

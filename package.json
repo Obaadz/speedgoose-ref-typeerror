@@ -1,0 +1,13 @@
+{
+  "name": "speedgoose-ref-typeerror",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1",
+    "speedgoose": "^2.0.12"
+  }
+}
